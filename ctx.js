@@ -11,10 +11,10 @@ sc.pageScroll = function() {
 	sc.x = pageXOffset;
 	sc.y = pageYOffset;
 	if(sc.nx == sc.x && sc.ny == sc.y){
-    console.log("止まってる");
+    //console.log("止まってる");
     if(sc.stop_sec > 200) {
        /* 2秒間止まったまま */
-       console.log("止めます");
+       //console.log("止めます");
        sc.pageScrollStop();
     }else {
        sc.stop_sec++;
