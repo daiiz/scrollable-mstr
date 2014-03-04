@@ -12,7 +12,7 @@
    },
    "options_page": "options.html",
    "content_security_policy": "script-src 'self'; object-src",
-   "description": "「もっと見る」ボタンを押すと自動スクロールします",
+   "description": "飯テロ.inで「もっと見る」ボタンを押すと自動スクロールします",
    "icons": {
       "128": "128x128.png",
       "48": "48x48.png",
