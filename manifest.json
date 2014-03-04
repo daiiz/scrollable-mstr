@@ -1,0 +1,32 @@
+﻿{
+   "background": {
+      "scripts": ["background.js"]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "48x48.png",
+         "38": "48x48.png"
+      },
+      "default_popup": "main.html",
+      "default_title": "スクロールのON/OFFを切り替える"
+   },
+   "options_page": "options.html",
+   "content_security_policy": "script-src 'self'; object-src",
+   "description": "「もっと見る」ボタンを押すと自動スクロールします",
+   "icons": {
+      "128": "128x128.png",
+      "48": "48x48.png",
+      "16": "48x48.png"
+   },
+   "content_scripts": [
+    {
+      "matches": ["https://mstr.in/", "http://mstr.in/"],
+      "js": ["ctx.js"],
+      "run_at": "document_end"
+    }
+   ],
+   "manifest_version": 2,
+   "name": "Scrollable mstr",
+   "permissions": ["tabs"],
+   "version": "0.0.1"
+}
