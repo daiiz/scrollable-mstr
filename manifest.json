@@ -28,5 +28,5 @@
    "manifest_version": 2,
    "name": "Scrollable mstr",
    "permissions": ["tabs", "http://*/*", "https://*/*"],
-   "version": "0.0.2"
+   "version": "0.0.3"
 }
